@@ -1,0 +1,15 @@
+name: Hola mon GitHub Actions
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar missatge
+        run: echo "Hola món! Aquest és el meu primer workflow 🚀"
