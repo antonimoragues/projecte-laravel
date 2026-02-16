@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Pasta al pesto">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e9ffe5"/>
+      <stop offset="100%" stop-color="#8ad4a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <rect x="85" y="80" width="150" height="60" rx="18" fill="#7abf67" stroke="#4f8f3f" stroke-width="6"/>
+  <path d="M110 105h100" stroke="#f5e6a2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M110 120h100" stroke="#f5e6a2" stroke-width="8" stroke-linecap="round"/>
+  <text x="160" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1f5b35">Pasta</text>
+</svg>
